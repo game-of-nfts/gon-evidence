@@ -1,14 +1,16 @@
 # Evidence
 
-This part tells participants how to qualify themselves as GoNers and earn points to win rewards by submitting evidence.
+This section provides guidance on submitting qualifications, tasks/awards evidence and bug/issue reports for participants in GoN Phase 1 Incentivized Testing.
 
-At the beginning of the registration, we set a one-year Github account threshold for the participants. Thus we assume that participants are familiar with the operation of Git, and the process of submitting evidence through PR will be a commonplace operation.
+In order to verify the authenticity of identity, ensure fairness of the game, and protect participants' rights in receiving points and claiming rewards, please make sure to submit evidence as required.
 
-## Qualification Evidence
+Given the registration threshold for phase 1, we assume that participants already have a basic understanding of Git operations, including submitting evidence through PR.
 
-Under the `gon-evidence/template` lies a `template.xlsx` file. It is a template for submitting your addresses and evidence.
+## Qualification Evidence Submission
 
-Each participant must fork the `gon-evidence` repository and add a directory named by their **Github Username(https://github.com/{USERNAME})**.
+The `gon-evidence/template` includes a `template.xlsx` file, which serves as a template for submitting basic information for game participation.
+
+To participate, each individual must first fork the gon-evidence repository and create a directory named after their GitHub username `https://github.com/{USERNAME}`.
 
 ```
 gon-evidence/
@@ -21,15 +23,15 @@ gon-evidence/
     └── evidence.xlsx
 ```
 
-Participants are required to fill the `Info` sheet in the `evidence.xlsx` and then make their PRs to the `gon-testnets`. Organizers will verify their tasks result against their addresses and evidence submissions. 
+Participants are required to fill the `Info` sheet in the `evidence.xlsx` file and then submit PRs to `gon-evidence`. The organizers will then verify the completed tasks against their addresses and evidence submissions.
 
-We will guide participants in the tasks to record their identity on chain to prove control of addresses. Thus copying other participants' addresses won't proof you own the address.
+To ensure the integrity of the process, we will guide participants through the tasks and provide instructions on how to record their identity on the chain to prove ownership of their addresses. It is important to note that simply copying another participant's address will not be sufficient proof of ownership.
 
 | TeamName | IRISnetAddress | StargazeAddress | JunoAddress | UptickAddrss | OmniflixAddress |
 | -------- | -------------- | --------------- | ----------- | ------------ | --------------- |
 | GoNer    | iaa1           | stars1          | juno1       | uptick1      | omniflix1       |
 
-**Please note** that participants shall not modify any other participants' `evidence.xlsx` files. If such commits are found, they are deprived of qualification for rewards. Also, they should not result in a merge conflict, thus they can only add new content to their own `participant/evidence.xlsx` files.
+Additionally, participants must not modify the `evidence.xlsx` files of other participants. Any attempts to do so will result in disqualification from receiving rewards. Furthermore, participants should avoid causing merge conflicts and can only add new content to their own `{USERNAME}/evidence.xlsx` files.
 
 ## Task Evidence Submission
 
