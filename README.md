@@ -30,7 +30,7 @@ Firstly, participants are required to fill the `Info` sheet in the `evidence.xls
 Examples
 | TeamName | IRISnetAddress | StargazeAddress | JunoAddress | UptickAddrss | OmniflixAddress | DiscordHandle | Community(If applicable) |
 | -------- | -------------- | --------------- | ----------- | ------------ | --------------- | ------------- | ------------------------ |
-| GoNer    | iaa           | stars          | juno       | uptick      | omniflix       | GoNer#0000    | Cosmos Hub               |
+| GoNer    | iaa1           | stars1          | juno1       | uptick1      | omniflix1       | GoNer#0000    | Cosmos Hub               |
 
 Additionally, participants must not modify the `evidence.xlsx` files of other participants. Any attempts to do so will result in disqualification. Furthermore, participants should avoid causing merge conflicts and can only add new content to their own `{USERNAME}/evidence.xlsx` files.
 
