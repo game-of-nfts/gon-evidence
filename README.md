@@ -42,8 +42,6 @@ During the testing, participants are required to add task evidence into their ow
 
 To ensure the integrity of the process, we will guide participants through the tasks and provide instructions on how to record their identity on the chain to prove ownership of their addresses. It is important to note that simply copying another participant's address will not be sufficient proof of ownership.
 
-More details will be coming soon...
-
 ## Claiming Awards
 
 Claim awards by opening an issue in `gon-evidence` . Please add a `award` label and the title should be in the fromart `AWARD: [TEAM NAME] Claim [Award-Id]`.
