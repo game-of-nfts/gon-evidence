@@ -8,6 +8,8 @@ Given the registration threshold for phase 1, we assume that participants alread
 
 The `gon-evidence/template` includes a `template.xlsx` file, which serves as a template for submitting basic information and evidence for game participation.
 
+As the evidence verification program is based on a standard template, please **do not change** the name or layout of any sheets in the `xlsx` file. Any changes on it would result in a failed task validation and no points will not be awarded for that task.
+
 ## Qualification Evidence Submission
 
 To participate, each individual must first fork the gon-evidence repository and create a directory named after their GitHub username `https://github.com/{USERNAME}`.
@@ -40,12 +42,37 @@ During the testing, participants are required to add task evidence into their ow
 
 To ensure the integrity of the process, we will guide participants through the tasks and provide instructions on how to record their identity on the chain to prove ownership of their addresses. It is important to note that simply copying another participant's address will not be sufficient proof of ownership.
 
-More details will be coming soon...
+## Claiming Awards
+
+Claim awards by opening an issue in `gon-evidence` . Please add a `award` label and the title should be in the fromart `AWARD: [TEAM NAME] Claim [Award-Id]`.
 
 ## Bug Submission
 
-Coming soon...
+Report bugs by opening an issue in `gon-evidence`. Please add a `bug` label and the title should be in the fromart `BUG: Brief Description`. The detailed description should include information as follows:
 
-## Rewards Claim
+```markdown
+## Summary of Bug
 
-Coming soon...
+A clear and concise description of what the bug is.
+
+## Environment
+
+- OS: [insert your operating system name and version here]
+- Software version: [insert the name and version of the software where you encountered the bug]
+
+## Steps to Reproduce
+
+Steps to reproduce the behavior:
+
+## Expected and Actual Behavior
+
+A clear and concise description of what you expected to happen and what actually happened.
+
+## Error Stack
+
+If applicable, include any error messages or stack traces that you received when encountering the bug. This will help developers better understand the root cause of the issue and provide a more effective fix.
+
+## Additional Context
+
+Add any other relevant context about the problem here, such as the time and date the bug was encountered, any recent changes or updates to the software or environment, and any other relevant information that may be useful in troubleshooting the issue.
+```
