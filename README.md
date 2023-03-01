@@ -8,7 +8,7 @@ Given the registration threshold for phase 1, we assume that participants alread
 
 The `gon-evidence/template` includes a `template.xlsx` file, which serves as a template for submitting basic information and evidence for game participation.
 
-Please **do not modify** the name or layout of any sheets in the `xlsx` file, as our evidence verification program is based on a standard template. Any validation errors or point deductions resulting from modifying the name or layout will be the responsibility of the participants. The verification program will be made public for participants to review.
+As the evidence verification program is based on a standard template, please **do not change** the name or layout of any sheets in the `xlsx` file. Any changes on it would result in a failed task validation and no points will not be awarded for that task.
 
 ## Qualification Evidence Submission
 
@@ -50,7 +50,7 @@ Claim awards by opening an issue in `gon-evidence` . Please add a `award` label 
 
 ## Bug Submission
 
-Report bugs by opening an issue in `gon-evidence`. Please add a `bug` label and the title should be in the fromart `BUG: Brief Description`. The detailed description should  
+Report bugs by opening an issue in `gon-evidence`. Please add a `bug` label and the title should be in the fromart `BUG: Brief Description`. The detailed description should include information as follows:
 
 ```markdown
 ## Summary of Bug
