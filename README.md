@@ -1,5 +1,18 @@
 # Evidence
 
+> **WARNING**
+> Please do not modify the names and layout of the sheets in your evidence file. We use program verification, which relies on a unified and fixed template.
+
+- [Evidence](#evidence)
+  - [Overview](#overview)
+  - [Qualification Evidence Submission](#qualification-evidence-submission)
+  - [Task Evidence Submission](#task-evidence-submission)
+    - [Supplementary Explanation for Stage 1 Evidence](#supplementary-explanation-for-stage-1-evidence)
+  - [Claiming Awards](#claiming-awards)
+  - [Bug Submission](#bug-submission)
+
+## Overview
+
 This section provides guidance on submitting qualifications, tasks/awards evidence and bug/issue reports for participants in GoN Phase 1 Incentivized Testing.
 
 > In order to verify the authenticity of identity, ensure fairness of the game, and protect participants' rights in receiving points and claiming rewards, please make sure to submit evidence as required.
@@ -25,13 +38,14 @@ gon-evidence/
     └── evidence.xlsx
 ```
 
-Firstly, participants are required to fill the `Info` sheet in the `evidence.xlsx file` with team names, new address created for each test chain, discord handle, and their community (if applicable), and then submit PRs to `gon-evidence`. The organizers will verify and merge eligible PRs. It is important to note that simply copying another participant's address will not be sufficient proof of ownership.
+Firstly, participants are required to fill the `Info` sheet in the `evidence.xlsx` file with team names, new address created for each test chain, discord handle, and their community (if applicable), and then submit PRs to `gon-evidence`. The organizers will verify and merge eligible PRs. It is important to note that simply copying another participant's address will not be sufficient proof of ownership.
 
 > *Please note that all submissions will be public, so please make sure to **create new addresses of test chains** to participate in the public testing.*
 
 Examples
+
 | TeamName | IRISnetAddress | StargazeAddress | JunoAddress | UptickAddrss | OmniflixAddress | DiscordHandle | Community(If applicable) |
-| -------- | -------------- | --------------- | ----------- | ------------ | --------------- | ------------- | ------------------------ |
+|----------|----------------|-----------------|-------------|--------------|-----------------|---------------|--------------------------|
 | GoNer    | iaa            | stars           | juno        | uptick       | omniflix        | GoNer#0000    | Cosmos Hub               |
 
 Additionally, participants must not modify the `evidence.xlsx` files of other participants. Any attempts to do so will result in disqualification. Furthermore, participants should avoid causing merge conflicts and can only add new content to their own `{USERNAME}/evidence.xlsx` files.
@@ -40,7 +54,54 @@ Additionally, participants must not modify the `evidence.xlsx` files of other pa
 
 During the testing, participants are required to add task evidence into their own Info sheet in the `evidence.xlsx` file and then submit PRs to `gon-evidence` for verification and scoring.
 
-To ensure the integrity of the process, we will guide participants through the tasks and provide instructions on how to record their identity on the chain to prove ownership of their addresses. It is important to note that simply copying another participant's address will not be sufficient proof of ownership.
+To ensure the integrity of the process, we will guide participants through the tasks and provide instructions on how to record their identity on the chain to **prove ownership of their addresses**. It is important to note that simply copying another participant's address will not be sufficient proof of ownership.
+
+When submitting evidence, please add the lable `stage-1,2,3` to the corresponding PR and indicate which stage it is in the Title. Pull requests may not be merged in a timely manner, and the leaderboard is not updated in real-time. Please be patient.
+
+The verification program will use the participant's evidence folder in the `main` branch of `gon-evidence` as the only basis for program verification.
+
+### Supplementary Explanation for Stage 1 Evidence
+
+In view of the fact that the description in the evidence template is too simple, it may cause misunderstandings for participants. Hereby clarifying the meanings of each column attribute value. Note that the list below corresponds from top to bottom to the left-to-right cell attribute values in the sheet.
+
+#### A1
+
+- `TxHash` tx hash of issuing a class on iris
+- `ClassID` the class id on iris
+
+#### A2
+
+- `TxHash` tx hash of minting an nft on iris
+- `ClassID` the class id in `A1`
+- `NFTID` the nft id you minted
+
+#### A3
+
+- `TxHash` tx hash of interchain-transferring an nft from on iris
+- `ClassID` in fact the cw-721 wasm contract deployed on stars or juno 
+- `NFTID` the nft id you transferred, should be one of minted nfts in `A2`
+- `ChainID` depending on your destination chain
+
+#### A4
+
+- `TxHash` tx hash of interchain-transferring an nft from on iris
+- `ClassID` ibc class id queryed on omniflix or uptick
+- `NFTID` the nft id you transferred, should be one of minted nfts in `A2`
+- `ChainID` depending on your destination chain
+
+#### A5
+
+- `TxHash` tx hash of interchain-transferring an nft from stargaze or juno
+- `ClassID` cw-721 wasm contract deployed on stars or juno 
+- `NFTID` the id of nft transferred in `A3`
+- `ChainID` depending on your source chain: stargaze or juno.
+
+#### A6
+
+- `TxHash` tx hash of interchain-transferring
+- `ClassID` ibc class id queryed on omniflix or uptick
+- `NFTID` the id of nft transferred in `A3`
+- `ChainID` depending on your source chain: omniflix or uptick.
 
 ## Claiming Awards
 
