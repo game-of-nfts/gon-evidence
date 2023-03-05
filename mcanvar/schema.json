@@ -1,0 +1,23 @@
+{
+    "id": "coin",
+    "type": "object",
+    "properties": {
+        "mimeType": {
+            "type": "string"
+        },
+        "image": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "mimeType",
+        "image",
+        "name"
+    ]
+}
