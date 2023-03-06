@@ -14,6 +14,9 @@
       - [A4](#a4)
       - [A5](#a5)
       - [A6](#a6)
+    - [Supplementary Explanation for Stage 2 Evidence](#supplementary-explanation-for-stage-2-evidence)
+      - [A7~A12](#a7a12)
+      - [A13~A20](#a13a20)
   - [Claiming Awards](#claiming-awards)
   - [Bug Submission](#bug-submission)
 
@@ -108,6 +111,18 @@ In view of the fact that the description in the evidence template is too simple,
 - `ClassID` ibc class id queryed on omniflix or uptick
 - `NFTID` the id of nft transferred in `A3`
 - `ChainID` depending on your source chain: omniflix or uptick.
+
+### Supplementary Explanation for Stage 2 Evidence
+
+#### A7~A12
+
+- `ClassID` the id of the final ibc class on iris
+- `NFTID` the id of nft
+
+#### A13~A20
+
+- `TxHash`  tx hash of interchain-transferring
+- `ChainID`  chain id corresponding to the transaction hash.
 
 ## Claiming Awards
 
