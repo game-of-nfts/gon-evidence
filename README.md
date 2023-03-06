@@ -21,7 +21,7 @@ Given the registration threshold for phase 1, we assume that participants alread
 
 The `gon-evidence/template` includes a `template.xlsx` file, which serves as a template for submitting basic information and evidence for game participation.
 
-As the evidence verification program is based on a standard template, please **do not change** the name or layout of any sheets in the `xlsx` file. Any changes on it would result in a failed task validation and no points will not be awarded for that task.
+As the evidence verification program is based on a standard template, please **do not change** the name or layout of any sheets in the `xlsx` file. Any changes on it would result in a failed task validation and no points will be awarded for that task.
 
 ## Qualification Evidence Submission
 
