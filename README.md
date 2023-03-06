@@ -8,6 +8,12 @@
   - [Qualification Evidence Submission](#qualification-evidence-submission)
   - [Task Evidence Submission](#task-evidence-submission)
     - [Supplementary Explanation for Stage 1 Evidence](#supplementary-explanation-for-stage-1-evidence)
+      - [A1](#a1)
+      - [A2](#a2)
+      - [A3](#a3)
+      - [A4](#a4)
+      - [A5](#a5)
+      - [A6](#a6)
   - [Claiming Awards](#claiming-awards)
   - [Bug Submission](#bug-submission)
 
@@ -45,7 +51,7 @@ Firstly, participants are required to fill the `Info` sheet in the `evidence.xls
 Examples
 
 | TeamName | IRISnetAddress | StargazeAddress | JunoAddress | UptickAddrss | OmniflixAddress | DiscordHandle | Community(If applicable) |
-|----------|----------------|-----------------|-------------|--------------|-----------------|---------------|--------------------------|
+| -------- | -------------- | --------------- | ----------- | ------------ | --------------- | ------------- | ------------------------ |
 | GoNer    | iaa            | stars           | juno        | uptick       | omniflix        | GoNer#0000    | Cosmos Hub               |
 
 Additionally, participants must not modify the `evidence.xlsx` files of other participants. Any attempts to do so will result in disqualification. Furthermore, participants should avoid causing merge conflicts and can only add new content to their own `{USERNAME}/evidence.xlsx` files.
@@ -56,7 +62,7 @@ During the testing, participants are required to add task evidence into their ow
 
 To ensure the integrity of the process, we will guide participants through the tasks and provide instructions on how to record their identity on the chain to **prove ownership of their addresses**. It is important to note that simply copying another participant's address will not be sufficient proof of ownership.
 
-When submitting evidence, please add the lable `stage-1,2,3` to the corresponding PR and indicate which stage it is in the Title. Pull requests may not be merged in a timely manner, and the leaderboard is not updated in real-time. Please be patient.
+When submitting evidence, please indicate which stage it is in the Title. Pull requests may not be merged in a timely manner, and the leaderboard is not updated in real-time. Please be patient.
 
 The verification program will use the participant's evidence folder in the `main` branch of `gon-evidence` as the only basis for program verification.
 
