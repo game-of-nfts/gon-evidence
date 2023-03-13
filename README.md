@@ -124,6 +124,18 @@ In view of the fact that the description in the evidence template is too simple,
 - `TxHash`  tx hash of interchain-transferring
 - `ChainID`  chain id corresponding to the transaction hash.
 
+### Supplementary Explanation for Stage 3 Evidence
+
+#### B1~B2
+
+For B1 and B2, you need to submit tow tx hashes:
+- `row 2` the first successful interchain nft-transfer tx hash on iris.
+- `row 3` the last nft transfer (to last owner) tx hash on iris.
+
+#### B3~B4
+
+You don't need to submit evidence for B3 and B4.
+
 ## Claiming Awards
 
 Claim awards by opening an issue in `gon-evidence` . Please add a `award` label and the title should be in the fromart `AWARD: [TEAM NAME] Claim [Award-Id]`.
