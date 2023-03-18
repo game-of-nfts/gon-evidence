@@ -8,6 +8,15 @@
   - [Qualification Evidence Submission](#qualification-evidence-submission)
   - [Task Evidence Submission](#task-evidence-submission)
     - [Supplementary Explanation for Stage 1 Evidence](#supplementary-explanation-for-stage-1-evidence)
+      - [A1](#a1)
+      - [A2](#a2)
+      - [A3](#a3)
+      - [A4](#a4)
+      - [A5](#a5)
+      - [A6](#a6)
+    - [Supplementary Explanation for Stage 2 Evidence](#supplementary-explanation-for-stage-2-evidence)
+      - [A7~A12](#a7a12)
+      - [A13~A20](#a13a20)
   - [Claiming Awards](#claiming-awards)
   - [Bug Submission](#bug-submission)
 
@@ -21,7 +30,7 @@ Given the registration threshold for phase 1, we assume that participants alread
 
 The `gon-evidence/template` includes a `template.xlsx` file, which serves as a template for submitting basic information and evidence for game participation.
 
-As the evidence verification program is based on a standard template, please **do not change** the name or layout of any sheets in the `xlsx` file. Any changes on it would result in a failed task validation and no points will not be awarded for that task.
+As the evidence verification program is based on a standard template, please **do not change** the name or layout of any sheets in the `xlsx` file. Any changes on it would result in a failed task validation and no points will be awarded for that task.
 
 ## Qualification Evidence Submission
 
@@ -45,7 +54,7 @@ Firstly, participants are required to fill the `Info` sheet in the `evidence.xls
 Examples
 
 | TeamName | IRISnetAddress | StargazeAddress | JunoAddress | UptickAddrss | OmniflixAddress | DiscordHandle | Community(If applicable) |
-|----------|----------------|-----------------|-------------|--------------|-----------------|---------------|--------------------------|
+| -------- | -------------- | --------------- | ----------- | ------------ | --------------- | ------------- | ------------------------ |
 | GoNer    | iaa            | stars           | juno        | uptick       | omniflix        | GoNer#0000    | Cosmos Hub               |
 
 Additionally, participants must not modify the `evidence.xlsx` files of other participants. Any attempts to do so will result in disqualification. Furthermore, participants should avoid causing merge conflicts and can only add new content to their own `{USERNAME}/evidence.xlsx` files.
@@ -56,7 +65,7 @@ During the testing, participants are required to add task evidence into their ow
 
 To ensure the integrity of the process, we will guide participants through the tasks and provide instructions on how to record their identity on the chain to **prove ownership of their addresses**. It is important to note that simply copying another participant's address will not be sufficient proof of ownership.
 
-When submitting evidence, please add the lable `stage-1,2,3` to the corresponding PR and indicate which stage it is in the Title. Pull requests may not be merged in a timely manner, and the leaderboard is not updated in real-time. Please be patient.
+When submitting evidence, please indicate which stage it is in the Title. Pull requests may not be merged in a timely manner, and the leaderboard is not updated in real-time. Please be patient.
 
 The verification program will use the participant's evidence folder in the `main` branch of `gon-evidence` as the only basis for program verification.
 
@@ -102,6 +111,30 @@ In view of the fact that the description in the evidence template is too simple,
 - `ClassID` ibc class id queryed on omniflix or uptick
 - `NFTID` the id of nft transferred in `A3`
 - `ChainID` depending on your source chain: omniflix or uptick.
+
+### Supplementary Explanation for Stage 2 Evidence
+
+#### A7~A12
+
+- `ClassID` the id of the final ibc class on iris
+- `NFTID` the id of nft
+
+#### A13~A20
+
+- `TxHash`  tx hash of interchain-transferring
+- `ChainID`  chain id corresponding to the transaction hash.
+
+### Supplementary Explanation for Stage 3 Evidence
+
+#### B1~B2
+
+For B1 and B2, you need to submit tow tx hashes:
+- `row 2` the first successful interchain nft-transfer tx hash on iris.
+- `row 3` the last nft transfer (to last owner) tx hash on iris.
+
+#### B3~B4
+
+You don't need to submit evidence for B3 and B4.
 
 ## Claiming Awards
 
