@@ -22,6 +22,7 @@
       - [B3~B4](#b3b4)
       - [B5~B7](#b5b7)
       - [B8](#b8)
+      - [B9](#b9)
   - [Claiming Awards](#claiming-awards)
   - [Bug Submission](#bug-submission)
 
@@ -151,8 +152,11 @@ Note the previous template dosen't contain `B7` sheet, so please add one after `
 
 #### B8
 
-You don't need to submit evidence for B3 and B4.
+You don't need to submit evidence for B8.
 
+#### B9
+
+You don't need to submit evidence for B9.
 
 ## Claiming Awards
 
