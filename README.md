@@ -17,6 +17,12 @@
     - [Supplementary Explanation for Stage 2 Evidence](#supplementary-explanation-for-stage-2-evidence)
       - [A7~A12](#a7a12)
       - [A13~A20](#a13a20)
+    - [Supplementary Explanation for Stage 3 Evidence](#supplementary-explanation-for-stage-3-evidence)
+      - [B1~B2](#b1b2)
+      - [B3~B4](#b3b4)
+      - [B5~B7](#b5b7)
+      - [B8](#b8)
+      - [B9](#b9)
   - [Claiming Awards](#claiming-awards)
   - [Bug Submission](#bug-submission)
 
@@ -135,6 +141,22 @@ For B1 and B2, you need to submit tow tx hashes:
 #### B3~B4
 
 You don't need to submit evidence for B3 and B4.
+
+#### B5~B7
+
+For B5, B6 and B7, you need to submit tow tx hashes:
+- `row 2` the first successful interchain nft-transfer tx hash on iris.
+- `row 3` the last nft transfer (to last owner) tx hash on iris.
+
+Note the previous template dosen't contain `B7` sheet, so please add one after `B6`.
+
+#### B8
+
+You don't need to submit evidence for B8.
+
+#### B9
+
+You don't need to submit evidence for B9.
 
 ## Claiming Awards
 
