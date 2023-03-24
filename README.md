@@ -1,5 +1,7 @@
 # Evidence
 
+**Please be aware that the deadline for all submissions (Both PRs and Issues) is set at block height `671,700` on `gon-irisnet-1`. The block height will serve as the ultimate reference for the deadline. Any evidence submissions, or award applications received after this block height will be deemed INVALID and NOT considered for evaluation.**
+
 > **WARNING**
 > Please do not modify the names and layout of the sheets in your evidence file. We use program verification, which relies on a unified and fixed template.
 
