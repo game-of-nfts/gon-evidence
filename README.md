@@ -1,5 +1,9 @@
 # Evidence
 
+**Please be aware that the deadline for all submissions (Both PRs and Issues) is set at block height `671,700` on `gon-irisnet-1`. The block height will serve as the ultimate reference for the deadline. Any evidence submissions, or award applications received after this block height will be deemed INVALID and NOT considered for evaluation.**
+
+**Submitted BUG issues now will automatically be considered as applications for the Bug Hunters Award and be reviewed later.**
+
 > **WARNING**
 > Please do not modify the names and layout of the sheets in your evidence file. We use program verification, which relies on a unified and fixed template.
 
@@ -17,6 +21,12 @@
     - [Supplementary Explanation for Stage 2 Evidence](#supplementary-explanation-for-stage-2-evidence)
       - [A7~A12](#a7a12)
       - [A13~A20](#a13a20)
+    - [Supplementary Explanation for Stage 3 Evidence](#supplementary-explanation-for-stage-3-evidence)
+      - [B1~B2](#b1b2)
+      - [B3~B4](#b3b4)
+      - [B5~B7](#b5b7)
+      - [B8](#b8)
+      - [B9](#b9)
   - [Claiming Awards](#claiming-awards)
   - [Bug Submission](#bug-submission)
 
@@ -123,6 +133,34 @@ In view of the fact that the description in the evidence template is too simple,
 
 - `TxHash`  tx hash of interchain-transferring
 - `ChainID`  chain id corresponding to the transaction hash.
+
+### Supplementary Explanation for Stage 3 Evidence
+
+#### B1~B2
+
+For B1 and B2, you need to submit tow tx hashes:
+- `row 2` the first successful interchain nft-transfer tx hash on iris.
+- `row 3` the last nft transfer (to last owner) tx hash on iris.
+
+#### B3~B4
+
+You don't need to submit evidence for B3 and B4.
+
+#### B5~B7
+
+For B5, B6 and B7, you need to submit tow tx hashes:
+- `row 2` the first successful interchain nft-transfer tx hash on iris.
+- `row 3` the last nft transfer (to last owner) tx hash on iris.
+
+Note the previous template dosen't contain `B7` sheet, so please add one after `B6`.
+
+#### B8
+
+You don't need to submit evidence for B8.
+
+#### B9
+
+You don't need to submit evidence for B9.
 
 ## Claiming Awards
 
